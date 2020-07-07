@@ -1,0 +1,12 @@
+---
+- host: all
+  become: yes
+  tasks: 
+    - name: i want to instll websever on ubuntu 16 node
+      apt:
+        name: apache2
+        state: present
+    - name: i want to start webserver 
+      service:  
+        state:  apache2
+        state:  started
