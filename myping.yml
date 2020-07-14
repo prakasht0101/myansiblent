@@ -1,0 +1,14 @@
+---
+- host: all
+  tasks:
+  - name : i want to ping all nodes
+  ping:
+
+  - name : i want install git
+    apt: 
+      name: git
+  - name: i want to install tree
+    apt:
+      name: tree
+      
+  

@@ -1,0 +1,6 @@
+key: value
+mywebserveronubuntu: apache2
+mywebserveronredhat: httpd
+
+javaonubuntu: openjdk-8-jre
+javaonredhat: java-1.8.0-openjdk
